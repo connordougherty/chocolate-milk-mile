@@ -1,0 +1,87 @@
+$brown: #A87A60;
+$off-white: #F6F6EA;
+$milk: #EADFC3;
+$chocolate: #593407;
+$red: #e74c3c;
+$size-1: 86px;
+$size-6: 20px;
+
+$primary: $brown;
+$primary-invert: $off-white;
+$link: $off-white;
+$family-primary: 'Baloo Paaji', cursive;
+
+.chocolate {
+	color: $chocolate;
+}
+
+.hero-body.nav-padding {
+	margin-top: 20px;
+}
+
+#menu {
+	position: fixed;
+	width: 100%;
+	background: $brown;
+	z-index: 10;
+}
+
+#glass {
+  border: 10px solid $off-white;
+  border-top: 0;
+  border-radius: 0 0 30px 30px;
+  height: 300px;
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 50px;
+  position: relative;
+}
+
+#straw {
+	background: $red;
+	position: absolute;
+	top: -90px;
+  left: 40px;
+  width: 20px;
+  height: 390px;
+	border-radius: 20px;
+	-ms-transform: rotate(-20deg); /* IE 9 */
+  -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+  transform: rotate(-20deg);
+}
+
+#pour {
+	display: none;
+	background: $milk;
+	position: absolute;
+	top: -50px;
+	left: 50px;
+	width: 50px;
+	height: 340px;
+	border-radius: 20px;
+}
+
+#squirt {
+	display: none;
+	background: $chocolate;
+	position: absolute;
+	top: -50px;
+	right: 50px;
+	width: 20px;
+	height: 320px;
+	border-radius: 20px;
+}
+
+#milk {
+	background: $milk;
+	background-position: top right;
+	position: absolute;
+	bottom: 0px;
+	width: 230px;
+	height: 0px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+@import "../bulma"
