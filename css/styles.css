@@ -1,6 +1,12 @@
 .chocolate {
   color: #593407; }
 
+.footer {
+  padding: 20px !important; }
+
+a:hover {
+  color: #361A05 !important; }
+
 .hero-body.nav-padding {
   margin-top: 20px; }
 
@@ -9,6 +15,9 @@
   width: 100%;
   background: #A87A60;
   z-index: 10; }
+
+.level-item {
+  width: 288px; }
 
 #glass {
   border: 10px solid #F6F6EA;
