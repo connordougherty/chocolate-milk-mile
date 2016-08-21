@@ -70,6 +70,40 @@
   -moz-border-radius: 0px 0px 20px 20px;
   border-radius: 0px 0px 20px 20px; }
 
+#run-section {
+  background: #A87A60; }
+
+div.body > h1 {
+  color: #593407; }
+
+div.body > h2 {
+  color: #A87A60; }
+
+div.body > p, div.body.register > form {
+  font-family: "Helvetica Neue";
+  font-size: 16px; }
+
+body input, body select, body textarea {
+  font-family: "Helvetica Neue";
+  font-size: 16px; }
+
+div.body.tim > p {
+  color: #361A05; }
+
+div.body.run > h2 {
+  color: #EADFC3; }
+
+div.body.run > p {
+  color: #F6F6EA; }
+
+img.about-tim {
+  float: right;
+  margin: 0 0 10px 10px; }
+
+img.about-run {
+  float: left;
+  margin: 0 10px 10px 0; }
+
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
   margin: 0;
   padding: 0;
@@ -276,7 +310,7 @@ input[type="radio"] {
   vertical-align: baseline; }
 
 small {
-  font-size: 11px; }
+  font-size: 16px; }
 
 span {
   font-style: inherit;
@@ -607,7 +641,7 @@ a.box:active {
     color: inherit; }
   .button small {
     display: block;
-    font-size: 11px;
+    font-size: 16px;
     line-height: 1;
     margin-top: 5px; }
   .button .icon:first-child,
@@ -1192,7 +1226,7 @@ a.box:active {
 
 .help {
   display: block;
-  font-size: 11px;
+  font-size: 16px;
   margin-top: 5px; }
   .help.is-white {
     color: #fff; }
@@ -1910,7 +1944,7 @@ a.box:active {
     background-color: #e74c3c;
     color: white; }
   .tag.is-small {
-    font-size: 11px;
+    font-size: 16px;
     height: 20px;
     padding-left: 8px;
     padding-right: 8px; }
@@ -2809,7 +2843,7 @@ a.box:active {
 
 .menu-label {
   color: #aeb1b5;
-  font-size: 11px;
+  font-size: 16px;
   letter-spacing: 1px;
   margin-bottom: 5px;
   text-transform: uppercase; }
@@ -3174,7 +3208,7 @@ a.nav-item {
 
 .panel-tabs {
   display: flex;
-  font-size: 11px;
+  font-size: 16px;
   padding: 5px 10px 0;
   justify-content: center; }
   .panel-tabs a {
@@ -3291,7 +3325,7 @@ a.panel-block:hover {
   .tabs.is-toggle ul {
     border-bottom: none; }
   .tabs.is-small {
-    font-size: 11px; }
+    font-size: 16px; }
     .tabs.is-small a {
       padding: 2px 8px; }
     .tabs.is-small.is-boxed a, .tabs.is-small.is-toggle a {

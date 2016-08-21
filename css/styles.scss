@@ -2,9 +2,11 @@ $brown: #A87A60;
 $off-white: #F6F6EA;
 $milk: #EADFC3;
 $chocolate: #593407;
+$dark-chocolate: #361A05;
 $red: #e74c3c;
 $size-1: 86px;
 $size-6: 20px;
+$size-7: 16px;
 
 $primary: $brown;
 $primary-invert: $off-white;
@@ -88,5 +90,51 @@ $family-primary: 'Baloo Paaji', cursive;
 	-moz-border-radius: 0px 0px 20px 20px;
 	border-radius: 0px 0px 20px 20px;
 }
+
+#run-section {
+	background: $brown;
+}
+
+div.body>h1 {
+	color: $chocolate;
+}
+
+div.body>h2 {
+	color: $brown;
+}
+
+div.body>p, div.body.register>form {
+	font-family: "Helvetica Neue";
+	font-size: $size-7;
+}
+
+body input, body select, body textarea {
+	font-family: "Helvetica Neue";
+	font-size: $size-7;
+}
+
+div.body.tim>p {
+	color: $dark-chocolate;
+}
+
+div.body.run>h2 {
+	color: $milk;
+}
+
+div.body.run>p {
+	color: $off-white;
+}
+
+img.about-tim {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+img.about-run {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+
 
 @import "../bulma"
