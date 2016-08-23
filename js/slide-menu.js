@@ -8,6 +8,15 @@ $(document).ready(function() {
     } else {
     	$("#mobile-menu").animate({height: '100px'});
       toggle = 0;
+    };
+	});
+	$("section, .is-info").click(function() {
+		if (toggle == 1){
+			$("#mobile-menu").animate({height: '100px'});
+      toggle = 0;
+    } else {
+
     }
 	});
+
 });
